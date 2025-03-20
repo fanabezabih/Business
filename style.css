@@ -1,23 +1,30 @@
 
 body{
     overflow-x: hidden;
+    /* max-width: 80%; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
     width: 100%;
 
 }
-.container{
-    /* max-width: 100%; */
-}
 
 .contents{
-    max-width: 100%;
-
+    width: 100%;
 }
 .free-estimate{
     font-family: Poppins;
     text-align: center;
-    border: solid 4px black;
+    /* border: solid 4px black; */
     background-color: black;
     color: white;
+    margin-top: 0;
+    width: 100%;
+    padding: 10px 0;
 }
 .call{
         display: flex;
@@ -47,8 +54,8 @@ body{
 }
 .top-text{
     display: flex;
-    gap: 1200px;
-    padding-left: 400px;
+    justify-content: space-between;
+    padding: 10px 10%;
 }
 .top-text i{
    padding-top: 20px;
@@ -61,7 +68,8 @@ body{
     background-size: cover; 
     background-position: center; 
     color: white; 
-    padding: 300px; 
+    height: 80vh;
+    padding-top: 10%;
 }
 
 .family-moving::after {
@@ -98,9 +106,9 @@ body{
 }
 .moving{
   display: flex;
-  gap: 300px;
-  margin-left: 250px;
-  margin-top: 150px;
+  gap: 15%;
+  margin: 5% auto;
+  width: 80%;
 
 }
 #couple{
@@ -133,17 +141,19 @@ body{
     width: 700px;
     border: solid 10px blue;
     position: absolute;
-    top: 1910px;
-    left: 1150px;
+    top: 1700px;
+    left: 1100px;
 }
 
-.logos img{
-    padding-left: 400px;
-    gap: 500px;
-    margin-top: 250px;
-    margin-bottom: 100px;
-  
+.logos{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% auto;
 }
+
+
 .services {
     background: #f8f9fa;
     padding: 50px;
