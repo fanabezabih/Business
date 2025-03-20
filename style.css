@@ -5,7 +5,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 .container{
@@ -325,6 +325,7 @@ h5 {
 .booking {
     display: flex;
     width: 100%;
+    height: 60vh;
 }
 .book-now {
     position: relative;
@@ -345,14 +346,15 @@ form input {
     position: absolute;
     border: none;
     background-color: rgb(66, 66, 143);
-    padding: 12.7% 67px;
+    padding: 5%;
     width: 80%;
-    height: 33px;
+    height: 410px;
+    /* height: 33px; */
 }
 .all-type {
     display: flex;
     gap: 20px;
-    margin-top: -105px;
+    /* margin-top: -105px; */
     color: white;
 }
 #movingtype {
@@ -361,10 +363,10 @@ form input {
 #date {
     margin-left: 0;
 }
-.all-moving-type input,
+.all-type input,
 .book-form input,
 .to input {
-    width: 200px;
+    width: 250px;
     height: 30px;
     padding: 5px;
 }
@@ -380,11 +382,11 @@ form input {
     margin-top: 20px;
     align-items: center;
     color: white;
+    align-items: center;
 }
 .to button {
     padding: 10px 10px;
     height: 43px;
-    margin-top: 3.5%;
     background-color: orange;
 }
 #orangeplay {
@@ -398,7 +400,23 @@ form input {
     line-height: 30px;
     display: flex;
     gap: 15%;
-    margin-left: 5%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+pre{
+    text-align: center;
+    align-items: center;
+}
+.updates{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.news-letter{
+    color: #F9AA33;
+    text-decoration: underline;
+    font-weight: 700;
 }
 .article {
     margin-top: 5%;
@@ -447,8 +465,21 @@ form input {
 }
 .subscribe {
     display: flex;
-    margin-left: 26%;
-    margin-bottom: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.subscribe button{
+    background-color: #F9AA33;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.subscribe input{
+    width: 300px;
+    height: 50px;
+    border: none;
 }
 .new-update input {
     width: 30%;
@@ -474,15 +505,16 @@ form input {
 }
 .all-news{
     display: flex;
-    margin-left: 15%;
+    /* margin-left: 15%; */
+    width: 100%;
     gap: 5%;
 }
 .news-item {
     position: relative;
     background-image: url(images/entertainment.jpeg);
     background-repeat: no-repeat;
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 400px;
     background-size: cover;
     background-position: center;
     color: white;
@@ -497,18 +529,19 @@ form input {
 #news2{
     background-image: url(images/we\ help\ .jpeg);
 }
-.news-item .news-text {
+.news-item .admin-text {
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 0;
+    left: 0;
     bottom: 2px;
     background: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     border-radius: 5px;
+    width: 97%;
+    text-align: center;
+    padding-top: 50%;
 }
-.admin-text p{
-    margin-top: 15%;
-}
+
 .footer-class {
     font-family: Arial, sans-serif;
     width: 100%;
@@ -520,13 +553,12 @@ form input {
 }
 .footer-top {
     text-align: center;
-    padding: 40px;
+    padding: 70px 10%;
     background-color: #F9AA33;
     display: flex;
+    justify-content: space-between;
 }
-.footer-top h2 {
-    margin-left: 150px;
-}
+
 .discover {
     margin-top: 10px;
     height: 60px;
@@ -543,16 +575,23 @@ form input {
 }
 .footer-bottom {
     display: flex;
-    padding: 20px;
-    margin-left: 20%;
+    padding: 70px 10%;
     height: 440px;
-    height: 420px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
-.contact-adress,
+.contact-address,
 .footer-links {
     flex-basis: 5%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 250px;
+}
+
+
+.contact-address{
+    padding-top: 5%;
+   
 }
 .media-platforms {
     display: flex;
@@ -589,11 +628,13 @@ form input {
 .media-platforms a:hover {
     color: #F9AA33;
 }
-.hr {
-    width: 600px
+hr {
+    width: 80%;
+    margin: 5% auto;
+    
 }
 .copyright-riaad {
     text-align: center;
-    padding: 10px;
-    background-color: #111;
+    padding: 40px;
+    /* background-color: #111; */
 }
