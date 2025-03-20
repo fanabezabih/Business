@@ -1,6 +1,6 @@
 .container{
     max-width: 100%;
-    background-color: lightcyan;
+    background-color: white;
 }
 
 .contents{
@@ -8,18 +8,42 @@
   
 
 }
-.navbar a{
-     gap: 200px;
-  
-     
-    text-decoration: none;;
+.free-estimate{
+    font-family: Poppins;
+    text-align: center;
+    border: solid 4px black;
+    background-color: black;
+    color: white;
 }
-.dribble h5{
-    font-size: 18px;
+.call{
+        display: flex;
+      
+}
+.navbar {
+        padding-left: 25%;
+        padding-right: 100px;
+        gap: 200px;
+        display: flex;
+        background: transparent;
+        text-decoration: none;
+        color: gray;
+}
+
+.dribble{
+    display: flex;
+    margin-left: -3%;
+    font-family: Poppins;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 .top-text{
     display: flex;
-    gap: 400px;
+    gap: 1200px;
     padding-left: 400px;
 }
 .top-text i{
@@ -35,6 +59,7 @@
     color: white; 
     padding: 300px; 
 }
+
 .family-moving::after {
     content: ""; 
     position: absolute; 
@@ -69,7 +94,7 @@
 }
 .moving{
   display: flex;
-  gap: 80px;
+  gap: 300px;
   margin-left: 250px;
   margin-top: 150px;
 
@@ -104,13 +129,16 @@
     width: 700px;
     border: solid 10px blue;
     position: absolute;
-    top: 1500px;
-    left: 1000px;
+    top: 1910px;
+    left: 1150px;
 }
 
-.logos{
+.logos img{
     padding-left: 400px;
-    gap: 100px;
+    gap: 500px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+  
 }
 .services {
     background: #f8f9fa;
@@ -132,7 +160,9 @@
     padding: 20px;
     width: 200px;
 }
-
+.services a{
+    color:orange;
+}
 .highlight {
     background: blue;
     color: white;
@@ -153,26 +183,32 @@
 .click {
     display: flex;
     margin-left: 250px;
+    margin-bottom: 200px;
+    gap: 300px;
 }
 h4 {
     font-size: 45px;
     margin-top: 80px;
-    font-family: 'poppins';
+   
 }
 .chooseleadingriaad i{
     background-color: yellow;
     border-radius: 50%;
     font-size: 30px;
 }
+.clickandwatchvideo{
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+}
 .click-video {
     margin-left: 190px;
     display: flex;
     gap: 40px;
-    font-family: 'poppins';
     margin-top: 90px;
 }
 #click-text {
-    font-size: 15px;
+    font-size: 18px;
 }
 .watch{
     position: relative;
@@ -205,9 +241,10 @@ h4 {
 }
 .riaad-business {
     display: flex;
-    background-image: url(Images/ladder.webp);
+    background-image: url(images/store.webp);
     background-repeat: no-repeat;
-    margin-left: 130px;
+    margin-left: 250px;
+    gap: 400px;
 }
 .verified{
     margin-left: 100px;
@@ -238,17 +275,17 @@ h5 {
     margin-top: -8%;
     font-family: Poppins;
 }
-#nohesitatetobook{
+#donothesitatetobook{
     text-align: center;
    font-family: Poppins;
    margin-bottom: 3%;
 }
-#nohesitatetobook u{
+#donothesitatetobook u{
     color: orange;
 }
-.video img {
-    height: 90vh;
-    width: 99%;
+.play-video img {
+    height: 50vh;
+    width: 60%;
     display: flex;
 }
 .icon {
@@ -271,6 +308,8 @@ h5 {
     background-color: orange;
     padding: 3% 10% 0.01% 18%;
     color: white;
+    height: 580px;
+    /* width: 80px; */
 }
 form input {
     width: 500%;
@@ -282,8 +321,8 @@ form input {
     border: none;
     background-color: rgb(66, 66, 143);
     padding: 12.7% 67px;
-    width: 880px;
-    height: auto;
+    width: 600px;
+    height: 33px;
 }
 .all-type {
     display: flex;
@@ -336,11 +375,11 @@ form input {
     gap: 15%;
     margin-left: 5%;
 }
-.wholearticle {
+.article {
     margin-top: 5%;
     text-align: center;
 }
-.wholearticle h1{
+.article h1{
     color: black;
     margin-left: -2%;
     font-family: Poppins;
@@ -373,7 +412,7 @@ form input {
 .blog p {
     color: rgb(255, 187, 0);
 }
-.newsletter {
+.update {
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -381,7 +420,7 @@ form input {
     /* margin: 50px auto; */
     text-align: center;
 }
-.new-update {
+.subscribe {
     display: flex;
     margin-left: 26%;
     margin-bottom: 4%;
@@ -398,7 +437,7 @@ form input {
     border: none;
     margin-left: 2%;
 }
-.news {
+.news-article {
     display: block;
     gap: 20px;
     justify-content: center;
@@ -415,7 +454,7 @@ form input {
 }
 .news-item {
     position: relative;
-    background-image: url(Images/istock\ .jpg);
+    background-image: url(images/entertainment.jpeg);
     background-repeat: no-repeat;
     width: 300px;
     height: 200px;
@@ -428,10 +467,10 @@ form input {
     text-align: center;
 }
 #news1{
-    background-image: url(Images/couple\ cheering.jpg);
+    background-image: url(images/choose\ us.jpeg);
 }
 #news2{
-    background-image: url(Images/people\ moving.jpg);
+    background-image: url(images/we\ help\ .jpeg);
 }
 .news-item .news-text {
     position: absolute;
@@ -442,10 +481,10 @@ form input {
     padding: 5px 10px;
     border-radius: 5px;
 }
-.news-text p{
+.admin-text p{
     margin-top: 15%;
 }
-.whole {
+.footer-class {
     font-family: Arial, sans-serif;
     width: 100%;
 }
@@ -463,7 +502,7 @@ form input {
 .footer-top h2 {
     margin-left: 150px;
 }
-.discover-btn {
+.discover {
     margin-top: 10px;
     height: 60px;
     padding: 10px 20px;
@@ -474,7 +513,7 @@ form input {
     font-size: 15px;
     margin-left: 300px;
 }
-.discover-btn:hover {
+.discover:hover {
     background-color: #444;
 }
 .footer-bottom {
@@ -484,13 +523,13 @@ form input {
     height: 440px;
     height: 420px;
 }
-.contact-info,
+.contact-adress,
 .footer-links {
     flex-basis: 5%;
     margin-bottom: 20px;
     margin-left: 250px;
 }
-.social-media {
+.media-platforms {
     display: flex;
     gap: 15%;
     margin-top: 7%;
@@ -514,7 +553,7 @@ form input {
 .footer-links a:hover {
     text-decoration: underline;
 }
-.social-media a {
+.media-platforms a {
     color: #fff;
     display: inline-flex;
     font-size: 30px;
@@ -522,13 +561,13 @@ form input {
 #twitter {
     color: #F9AA33
 }
-.social-media a:hover {
+.media-platforms a:hover {
     color: #F9AA33;
 }
 .hr {
     width: 600px
 }
-.copyright {
+.copyright-riaad {
     text-align: center;
     padding: 10px;
     background-color: #111;
