@@ -303,8 +303,8 @@ h5 {
     color: orange;
 }
 .play-video img {
-    height: 50vh;
-    width: 60%;
+    height: 90vh;
+    width: 100%;
     display: flex;
 }
 .icon {
@@ -324,6 +324,7 @@ h5 {
 }
 .booking {
     display: flex;
+    width: 100%;
 }
 .book-now {
     position: relative;
@@ -332,7 +333,8 @@ h5 {
     padding: 3% 10% 0.01% 18%;
     color: white;
     height: 580px;
-    /* width: 80px; */
+    /* width: 80% */
+  
 }
 form input {
     width: 500%;
@@ -344,7 +346,7 @@ form input {
     border: none;
     background-color: rgb(66, 66, 143);
     padding: 12.7% 67px;
-    width: 600px;
+    width: 80%;
     height: 33px;
 }
 .all-type {
