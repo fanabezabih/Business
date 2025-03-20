@@ -1,15 +1,15 @@
 
-.body{
+body{
     overflow-x: hidden;
+    width: 100%;
+
 }
 .container{
-    max-width: 100%;
-    background-color: white;
+    /* max-width: 100%; */
 }
 
 .contents{
     max-width: 100%;
-  
 
 }
 .free-estimate{
