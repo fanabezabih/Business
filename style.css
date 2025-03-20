@@ -85,7 +85,7 @@ body{
 .family-moving h1 {
     position: relative; 
     z-index: 2; 
-    font-size: 120px;
+    font-size: 80px;
    
 }
 .family-moving h4{
@@ -141,8 +141,8 @@ body{
     width: 700px;
     border: solid 10px blue;
     position: absolute;
-    top: 1700px;
-    left: 1100px;
+    top: 1350px;
+    left: 1000px;
 }
 
 .logos{
@@ -348,7 +348,7 @@ form input {
     background-color: rgb(66, 66, 143);
     padding: 5%;
     width: 80%;
-    height: 410px;
+    height: 452px;
     /* height: 33px; */
 }
 .all-type {
@@ -399,9 +399,10 @@ form input {
 .testimonals {
     line-height: 30px;
     display: flex;
-    gap: 15%;
+    gap: 6%;
     margin: 0 auto;
     width: 80%;
+    text-align: center;
 }
 
 pre{
@@ -412,6 +413,9 @@ pre{
     text-align: center;
     margin-top: 5%;
 }
+.updates h2{
+    font-size: 40px;
+}
 
 .news-letter{
     color: #F9AA33;
@@ -419,8 +423,9 @@ pre{
     font-weight: 700;
 }
 .article {
-    margin-top: 5%;
+    margin-top: 11%;
     text-align: center;
+
 }
 .article h1{
     color: black;
@@ -428,7 +433,8 @@ pre{
     font-family: Poppins;
     font-size: 400%;
 }
-.yellow-link {
+
+.yellow-article {
     color: #FFA600;
 }
 .new-update {
@@ -502,6 +508,9 @@ pre{
     margin: 0 auto;
     text-align: center;
     margin-bottom: 2%;
+}
+.news-article h2{
+    font-size: 45px;
 }
 .all-news{
     display: flex;
