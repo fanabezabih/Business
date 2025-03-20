@@ -155,6 +155,8 @@ body{
 
 
 .services {
+    width: 80%;
+    margin: 5% auto;
     background: #f8f9fa;
     padding: 50px;
     text-align: center;
@@ -196,9 +198,11 @@ body{
 }
 .click {
     display: flex;
-    margin-left: 250px;
-    margin-bottom: 200px;
-    gap: 300px;
+    margin: 5% auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
 }
 h4 {
     font-size: 45px;
@@ -257,8 +261,9 @@ h4 {
     display: flex;
     background-image: url(images/store.webp);
     background-repeat: no-repeat;
-    margin-left: 250px;
-    gap: 400px;
+    margin: 5% auto;
+    gap: 10%;
+    width: 80%;
 }
 .verified{
     margin-left: 100px;
@@ -312,6 +317,10 @@ h5 {
     width: 90%;
     height: 800px;
     overflow: hidden;
+}
+
+.for-booking{
+    width: 100%;
 }
 .booking {
     display: flex;
